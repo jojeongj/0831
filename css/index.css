@@ -42,7 +42,7 @@
 
 .slogan_second {
     position: absolute;
-    right: 99px;
+    left: 106px;
     top: 170px;
     font-size: 32px;
     font-weight: 700;
@@ -89,6 +89,7 @@
 .medi_img img {
     width: 390px;
     height: 300px;
+    object-fit: cover;
 }
 
 .finance_title,
