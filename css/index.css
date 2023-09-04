@@ -64,18 +64,6 @@
     height: 220px;
 }
 
-.kakaotalk {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    z-index: 5;
-}
-
-.kakaotalk img {
-    width: 100px;
-    height: 43px;
-}
-
 /* 세번째 컨텐츠 */
 .content_third {
     padding: 0 20px;
@@ -323,13 +311,6 @@
         height: 346px;
     }
 
-    .kakaotalk {
-        position: absolute;
-        right: 10px;
-        bottom: 20px;
-        z-index: 5;
-    }
-
     /* 세번째 컨텐츠 */
     .content_third {
         padding: 0;
@@ -432,10 +413,10 @@
         color: #0d0d0d;
     }
 
-    .finance_info .finance_info_detail_zip,
-    .home_info .home_info_detail_zip,
-    .unv_info .unv_info_detail_zip,
-    .medi_info .medi_info_detail_zip {
+    .finance_info .finance_info .finance_info_detail_zip,
+    .home_info .home_info .home_info_detail_zip,
+    .unv_info .unv_info .unv_info_detail_zip,
+    .medi_info .medi_info .medi_info_detail_zip {
         margin-bottom: 64px;
         max-width: none;
         margin: 0;
@@ -515,17 +496,6 @@
         height: 640px;
     }
 
-    .kakaotalk {
-        position: absolute;
-        right: 28px;
-        bottom: 173px;
-        z-index: 5;
-    }
-
-    .kakaotalk img {
-        width: 180px;
-        height: 77px;
-    }
     /* 세번째 컨텐츠 */
     .title {
         padding-top: 80px;
