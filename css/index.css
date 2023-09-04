@@ -215,6 +215,51 @@
     border: 1px solid #4279bc;
 }
 
+@media screen and (min-width: 600px) {
+    .content_first_wrapper {
+        max-width: 70%;
+    }
+
+    .content_third {
+        max-width: 70%;
+        /* border: 1px solid yellow; */
+    }
+
+    .finance_img,
+    .home_img,
+    .unv_img,
+    .medi_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .finance_img img,
+    .home_img img,
+    .unv_img img,
+    .medi_img img {
+        width: 88%;
+        height: auto;
+    }
+
+    .finance_title,
+    .home_title,
+    .unv_title,
+    .medi_title {
+        max-width: 88%;
+        /* border: 1px solid yellow; */
+        margin: 0 auto;
+    }
+
+    .finance_info .finance_info_detail_zip,
+    .home_info .home_info_detail_zip,
+    .unv_info .unv_info_detail_zip,
+    .medi_info .medi_info_detail_zip {
+        max-width: 88%;
+        margin: 0 auto;
+        margin-bottom: 64px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     /* 첫번째 컨텐츠 */
     .content_first {
@@ -348,6 +393,14 @@
         height: 28px;
     }
 
+    .finance_title,
+    .home_title,
+    .unv_title,
+    .medi_title {
+        max-width: none;
+        margin: 0;
+    }
+
     .finance_title_text,
     .home_title_text,
     .unv_title_text,
@@ -357,11 +410,13 @@
         color: #0d0d0d;
     }
 
-    .finance_info_detail_zip,
-    .home_info_detail_zip,
-    .unv_info_detail_zip,
-    .medi_info_detail_zip {
+    .finance_info .finance_info_detail_zip,
+    .home_info .home_info_detail_zip,
+    .unv_info .unv_info_detail_zip,
+    .medi_info .medi_info_detail_zip {
         margin-bottom: 64px;
+        max-width: none;
+        margin: 0;
     }
 
     .finance_info_detail:not(:last-of-type),
