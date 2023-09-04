@@ -196,7 +196,7 @@
     background-color: transparent;
     width: 100px;
     height: 32px;
-    margin-right: 20px;
+    margin-right: 8px;
 }
 
 .finance_btn button {
@@ -213,6 +213,28 @@
 
 .medi_btn button {
     border: 1px solid #4279bc;
+}
+
+@media screen and (max-width: 429px) {
+    content {
+        min-width: 370px;
+    }
+
+    .finance_img img,
+    .home_img img,
+    .unv_img img,
+    .medi_img img {
+        width: 96%;
+        height: auto;
+    }
+
+    .finance_img,
+    .home_img,
+    .unv_img,
+    .medi_img {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 600px) {
