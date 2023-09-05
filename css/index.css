@@ -16,20 +16,24 @@
 
 /* 첫번째 컨텐츠 */
 .content_first {
-    background: linear-gradient(
+    /* background: linear-gradient(
         180deg,
         #c7e2ff 0%,
         rgba(228, 239, 251, 0) 100%
-    );
+    ); */
     height: 502px;
 }
 
 .content_first_wrapper {
-    max-width: 430px;
+    /* max-width: 430px; */
     position: relative;
     padding: 0 20px;
     height: 100%;
     margin: 0 auto;
+    background-image: url("../images/mobile_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
 }
 
 .slogan {
@@ -38,6 +42,7 @@
     top: 120px;
     font-size: 32px;
     font-weight: 700;
+    z-index: 6;
 }
 
 .slogan_second {
@@ -46,6 +51,7 @@
     top: 170px;
     font-size: 32px;
     font-weight: 700;
+    z-index: 6;
 }
 
 .slogan_second span {
@@ -60,8 +66,8 @@
 }
 
 .main_image img {
-    width: 330px;
-    height: 220px;
+    width: 100%;
+    height: 100%;
 }
 
 /* 세번째 컨텐츠 */
@@ -245,7 +251,7 @@
 
 @media screen and (min-width: 600px) {
     .content_first_wrapper {
-        max-width: 70%;
+        background-position-y: 70%;
     }
 
     .content_third {
@@ -281,16 +287,22 @@
 
 @media screen and (min-width: 1024px) {
     /* 첫번째 컨텐츠 */
+
     .content_first {
-        height: 653px;
+        height: 623px;
     }
 
     .content_first_wrapper {
-        max-width: 1024px;
-        position: relative;
-        padding: 0px;
+        background-image: url("../images/tablet_bg.png");
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-position-y: center;
+        object-fit: cover;
+        padding: 0;
         height: 100%;
+        position: relative;
     }
+
     .slogan {
         left: 80px;
         top: 164px;
@@ -481,8 +493,13 @@
     }
 
     .content_first_wrapper {
-        max-width: 1920px;
+        background-image: url("../images/pc_bg.png");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: cover;
+        /* max-width: 1920px; */
     }
+
     .slogan {
         left: 246px;
         top: 98px;
