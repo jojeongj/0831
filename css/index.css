@@ -295,9 +295,9 @@
     .content_first_wrapper {
         background-image: url("../images/tablet_bg.png");
         background-repeat: no-repeat;
-        /* background-size: cover; */
+        background-size: cover;
         background-position-y: center;
-        object-fit: cover;
+        /* object-fit: cover; */
         padding: 0;
         height: 100%;
         position: relative;
